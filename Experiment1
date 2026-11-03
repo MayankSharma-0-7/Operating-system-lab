@@ -1,0 +1,19 @@
+OS Lab Manual – Command Reference
+
+1. Directory & File Operations:
+Navigation (pwd, cd), directory management (mkdir -p/-v/-m, rmdir -p/-v), listing (ls -lah), file creation (touch -c/-t/-d), copying (cp -r/-i/-p), moving (mv -i/-n/-v), deletion (rm -rf/-i), viewing (cat -n/-b), and line extraction (head, tail).
+
+2. I/O Redirection & Streams:
+Standard streams (stdin 0, stdout 1, stderr 2), overwriting (>), appending (>>), error redirection (2>), combined output (&>), and file input (<).
+
+3. Pipes & Utilities:
+Piping (|), sorting (sort), deduplication (uniq), stream duplication (tee), and argument conversion (xargs).
+
+4. Pattern Searching & File Finding:
+grep options (-i, -v, -c, -w, -n) and find filters (-size, -name, -iname, -user, -empty).
+
+5. Terminal Text Editors:
+Vim (modal) and Nano (modeless): editing, searching, line management, and exit operations.
+
+6. Process Management:
+Job control (jobs, bg, fg), process inspection (ps, ps -e, ps -ef, ps -p, ps aux), signals (kill -15 SIGTERM, kill -9 SIGKILL, kill -STOP, kill -CONT), priority scheduling (nice, renice), and live monitoring (top).
